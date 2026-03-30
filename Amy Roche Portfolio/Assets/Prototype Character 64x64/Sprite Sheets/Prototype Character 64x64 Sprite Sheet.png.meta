@@ -1,0 +1,2340 @@
+fileFormatVersion: 2
+guid: 896eb411b5195464685ec9840ded3d49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6953597794262269617
+    second: Prototype Character 64x64 Sprite Sheet_0
+  - first:
+      213: 2716137164583468390
+    second: Prototype Character 64x64 Sprite Sheet_1
+  - first:
+      213: 571162672044007473
+    second: Prototype Character 64x64 Sprite Sheet_2
+  - first:
+      213: 9099751149243385405
+    second: Prototype Character 64x64 Sprite Sheet_3
+  - first:
+      213: 2684928599501565270
+    second: Prototype Character 64x64 Sprite Sheet_4
+  - first:
+      213: 2435452601374047278
+    second: Prototype Character 64x64 Sprite Sheet_5
+  - first:
+      213: -1181459290604521510
+    second: Prototype Character 64x64 Sprite Sheet_6
+  - first:
+      213: -2319551052712682152
+    second: Prototype Character 64x64 Sprite Sheet_7
+  - first:
+      213: 5458739459194480666
+    second: Prototype Character 64x64 Sprite Sheet_8
+  - first:
+      213: -6189826522303744455
+    second: Prototype Character 64x64 Sprite Sheet_9
+  - first:
+      213: -5305895727123626734
+    second: Prototype Character 64x64 Sprite Sheet_10
+  - first:
+      213: 8668346758228259366
+    second: Prototype Character 64x64 Sprite Sheet_11
+  - first:
+      213: -8751699520284908764
+    second: Prototype Character 64x64 Sprite Sheet_12
+  - first:
+      213: -2842907684354370965
+    second: Prototype Character 64x64 Sprite Sheet_13
+  - first:
+      213: 4364425359676980525
+    second: Prototype Character 64x64 Sprite Sheet_14
+  - first:
+      213: -9001382680277585705
+    second: Prototype Character 64x64 Sprite Sheet_15
+  - first:
+      213: 7084461099924478148
+    second: Prototype Character 64x64 Sprite Sheet_16
+  - first:
+      213: 1332657977095762787
+    second: Prototype Character 64x64 Sprite Sheet_17
+  - first:
+      213: -5127573630805565564
+    second: Prototype Character 64x64 Sprite Sheet_18
+  - first:
+      213: 471029272316446894
+    second: Prototype Character 64x64 Sprite Sheet_19
+  - first:
+      213: -8900018351030995039
+    second: Prototype Character 64x64 Sprite Sheet_20
+  - first:
+      213: -3554829635570820880
+    second: Prototype Character 64x64 Sprite Sheet_21
+  - first:
+      213: -818355044290283862
+    second: Prototype Character 64x64 Sprite Sheet_22
+  - first:
+      213: -953291253691590643
+    second: Prototype Character 64x64 Sprite Sheet_23
+  - first:
+      213: 99268004942179101
+    second: Prototype Character 64x64 Sprite Sheet_24
+  - first:
+      213: -6976301079618067770
+    second: Prototype Character 64x64 Sprite Sheet_25
+  - first:
+      213: 1009968616397070075
+    second: Prototype Character 64x64 Sprite Sheet_26
+  - first:
+      213: -4931810078533459185
+    second: Prototype Character 64x64 Sprite Sheet_27
+  - first:
+      213: -8623663500333656398
+    second: Prototype Character 64x64 Sprite Sheet_28
+  - first:
+      213: -3101228905220091892
+    second: Prototype Character 64x64 Sprite Sheet_29
+  - first:
+      213: -6727812830202381768
+    second: Prototype Character 64x64 Sprite Sheet_30
+  - first:
+      213: 1016566429000513500
+    second: Prototype Character 64x64 Sprite Sheet_31
+  - first:
+      213: -974159643079820705
+    second: Prototype Character 64x64 Sprite Sheet_32
+  - first:
+      213: 5147748298925184463
+    second: Prototype Character 64x64 Sprite Sheet_33
+  - first:
+      213: 945305471582635757
+    second: Prototype Character 64x64 Sprite Sheet_34
+  - first:
+      213: -2490038456485412580
+    second: Prototype Character 64x64 Sprite Sheet_35
+  - first:
+      213: 7279834678006826370
+    second: Prototype Character 64x64 Sprite Sheet_36
+  - first:
+      213: 4746375613597597784
+    second: Prototype Character 64x64 Sprite Sheet_37
+  - first:
+      213: -8808139256555941629
+    second: Prototype Character 64x64 Sprite Sheet_38
+  - first:
+      213: -5942220521244265238
+    second: Prototype Character 64x64 Sprite Sheet_39
+  - first:
+      213: 1274127892493220784
+    second: Prototype Character 64x64 Sprite Sheet_40
+  - first:
+      213: -1612573685070998814
+    second: Prototype Character 64x64 Sprite Sheet_41
+  - first:
+      213: -8081768066770050092
+    second: Prototype Character 64x64 Sprite Sheet_42
+  - first:
+      213: -5179551232835710204
+    second: Prototype Character 64x64 Sprite Sheet_43
+  - first:
+      213: -7086419738893667504
+    second: Prototype Character 64x64 Sprite Sheet_44
+  - first:
+      213: 5994325885031221884
+    second: Prototype Character 64x64 Sprite Sheet_45
+  - first:
+      213: 7720690297144112535
+    second: Prototype Character 64x64 Sprite Sheet_46
+  - first:
+      213: -2202300464250360184
+    second: Prototype Character 64x64 Sprite Sheet_47
+  - first:
+      213: -5190918827718732952
+    second: Prototype Character 64x64 Sprite Sheet_48
+  - first:
+      213: 2784963641413013412
+    second: Prototype Character 64x64 Sprite Sheet_49
+  - first:
+      213: -2107900034152282628
+    second: Prototype Character 64x64 Sprite Sheet_50
+  - first:
+      213: -863569893017724481
+    second: Prototype Character 64x64 Sprite Sheet_51
+  - first:
+      213: -2280156637563864674
+    second: Prototype Character 64x64 Sprite Sheet_52
+  - first:
+      213: 7291939957373222070
+    second: Prototype Character 64x64 Sprite Sheet_53
+  - first:
+      213: -7351426497694840084
+    second: Prototype Character 64x64 Sprite Sheet_54
+  - first:
+      213: 2518714757794944570
+    second: Prototype Character 64x64 Sprite Sheet_55
+  - first:
+      213: -8432224448833964904
+    second: Prototype Character 64x64 Sprite Sheet_56
+  - first:
+      213: -3170031690072294143
+    second: Prototype Character 64x64 Sprite Sheet_57
+  - first:
+      213: -6916550122509708418
+    second: Prototype Character 64x64 Sprite Sheet_58
+  - first:
+      213: -3735592295819095541
+    second: Prototype Character 64x64 Sprite Sheet_59
+  - first:
+      213: -3527224912591504258
+    second: Prototype Character 64x64 Sprite Sheet_60
+  - first:
+      213: -5328855066673393228
+    second: Prototype Character 64x64 Sprite Sheet_61
+  - first:
+      213: -8289103314280757352
+    second: Prototype Character 64x64 Sprite Sheet_62
+  - first:
+      213: -3039143522530338055
+    second: Prototype Character 64x64 Sprite Sheet_63
+  - first:
+      213: 5488130515902410429
+    second: Prototype Character 64x64 Sprite Sheet_64
+  - first:
+      213: -6238175270833796846
+    second: Prototype Character 64x64 Sprite Sheet_65
+  - first:
+      213: -7360195756670292033
+    second: Prototype Character 64x64 Sprite Sheet_66
+  - first:
+      213: 6109164845777690937
+    second: Prototype Character 64x64 Sprite Sheet_67
+  - first:
+      213: -2731767477163781070
+    second: Prototype Character 64x64 Sprite Sheet_68
+  - first:
+      213: -3726501662741175645
+    second: Prototype Character 64x64 Sprite Sheet_69
+  - first:
+      213: -6951675587157130917
+    second: Prototype Character 64x64 Sprite Sheet_70
+  - first:
+      213: -7017108440405655193
+    second: Prototype Character 64x64 Sprite Sheet_71
+  - first:
+      213: 9048723664280962946
+    second: Prototype Character 64x64 Sprite Sheet_72
+  - first:
+      213: -5669208024816809140
+    second: Prototype Character 64x64 Sprite Sheet_73
+  - first:
+      213: 269523839264831435
+    second: Prototype Character 64x64 Sprite Sheet_74
+  - first:
+      213: -2324346894405555006
+    second: Prototype Character 64x64 Sprite Sheet_75
+  - first:
+      213: 8692218924119074841
+    second: Prototype Character 64x64 Sprite Sheet_76
+  - first:
+      213: 3048071213448195063
+    second: Prototype Character 64x64 Sprite Sheet_77
+  - first:
+      213: -2988676492137491082
+    second: Prototype Character 64x64 Sprite Sheet_78
+  - first:
+      213: -6018344689424616606
+    second: Prototype Character 64x64 Sprite Sheet_79
+  - first:
+      213: -284574950832516861
+    second: Prototype Character 64x64 Sprite Sheet_80
+  - first:
+      213: -6053083854315459813
+    second: Prototype Character 64x64 Sprite Sheet_81
+  - first:
+      213: 5389990907784101128
+    second: Prototype Character 64x64 Sprite Sheet_82
+  - first:
+      213: 7251833086884205370
+    second: Prototype Character 64x64 Sprite Sheet_83
+  - first:
+      213: 3861212222244848251
+    second: Prototype Character 64x64 Sprite Sheet_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 516
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41ce0ad5abdf7f90800000000000000
+      internalID: -6953597794262269617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 516
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dfb384c58a1b520800000000000000
+      internalID: 2716137164583468390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 516
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13065209c6d2de700800000000000000
+      internalID: 571162672044007473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 516
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36ca1b257fc84e70800000000000000
+      internalID: 9099751149243385405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 516
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de39cf558c24520800000000000000
+      internalID: 2684928599501565270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 516
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c7334cc377cc120800000000000000
+      internalID: 2435452601374047278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 516
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7beeae80d9a9fe0800000000000000
+      internalID: -1181459290604521510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 557
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d5da86b9c4fcfd0800000000000000
+      internalID: -2319551052712682152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 517
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18e1b2dd9651cb40800000000000000
+      internalID: 5458739459194480666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 557
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9363bc4b291591aa0800000000000000
+      internalID: -6189826522303744455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 516
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2158881b2fbad56b0800000000000000
+      internalID: -5305895727123626734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 452
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622ba1223772c4870800000000000000
+      internalID: 8668346758228259366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 452
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4232670a7a7bb8680800000000000000
+      internalID: -8751699520284908764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 454
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6254d00686fb88d0800000000000000
+      internalID: -2842907684354370965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 452
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2db04cadbd819c30800000000000000
+      internalID: 4364425359676980525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 452
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d073b6c42aa41380800000000000000
+      internalID: -9001382680277585705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 452
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c85216d5df015260800000000000000
+      internalID: 7084461099924478148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 452
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36332e39e5d8e7210800000000000000
+      internalID: 1332657977095762787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 452
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f9c2823f237d8b0800000000000000
+      internalID: -5127573630805565564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 452
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea88b37a0ae698600800000000000000
+      internalID: 471029272316446894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 388
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7f65cc678cc7480800000000000000
+      internalID: -8900018351030995039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 392
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f815ced745baaec0800000000000000
+      internalID: -3554829635570820880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 393
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6bdec4c6e94a4f0800000000000000
+      internalID: -818355044290283862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 388
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08d930d7aa35c2f0800000000000000
+      internalID: -953291253691590643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 388
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be32c79bba06100800000000000000
+      internalID: 99268004942179101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 388
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e03f41233f2f90800000000000000
+      internalID: -6976301079618067770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 388
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfed3a60b11240e00800000000000000
+      internalID: 1009968616397070075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 388
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0362590dd0be8bb0800000000000000
+      internalID: -4931810078533459185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 388
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b65c109cb7925880800000000000000
+      internalID: -8623663500333656398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 429
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00de21edb836f4d0800000000000000
+      internalID: -3101228905220091892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 324
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ab87c50e102a2a0800000000000000
+      internalID: -6727812830202381768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 325
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7b92bf7c19b1e00800000000000000
+      internalID: 1016566429000513500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 325
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ab4b747f61b72f0800000000000000
+      internalID: -974159643079820705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 325
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc59e8ecdc9707740800000000000000
+      internalID: 5147748298925184463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 324
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de68ae561566e1d00800000000000000
+      internalID: 945305471582635757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 324
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c110024773b917dd0800000000000000
+      internalID: -2490038456485412580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 351
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285ca26c11b270560800000000000000
+      internalID: 7279834678006826370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 324
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850cf0329738ed140800000000000000
+      internalID: 4746375613597597784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 324
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3015fc0830433c580800000000000000
+      internalID: -8808139256555941629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 351
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4f23e4bedf88da0800000000000000
+      internalID: -5942220521244265238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 324
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbb97e419c9ea110800000000000000
+      internalID: 1274127892493220784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 351
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e25337f6ccfe99e0800000000000000
+      internalID: -1612573685070998814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 260
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3631723cac7df80800000000000000
+      internalID: -8081768066770050092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 260
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40314ee98998e18b0800000000000000
+      internalID: -5179551232835710204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0533dedfacaf7ad90800000000000000
+      internalID: -7086419738893667504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 260
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a073512af103350800000000000000
+      internalID: 5994325885031221884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79574165be6652b60800000000000000
+      internalID: 7720690297144112535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 260
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eeda3656bdf61e0800000000000000
+      internalID: -2202300464250360184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86310ff24d626f7b0800000000000000
+      internalID: -5190918827718732952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 260
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af0dce2dad26a620800000000000000
+      internalID: 2784963641413013412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 260
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5c15a461c3fb2e0800000000000000
+      internalID: -2107900034152282628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9d4f7f1cbf304f0800000000000000
+      internalID: -863569893017724481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 265
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99b1c17e914b50e0800000000000000
+      internalID: -2280156637563864674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 260
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc35b2c1cc223560800000000000000
+      internalID: 7291939957373222070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 260
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea4184cc8c7af990800000000000000
+      internalID: -7351426497694840084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 196
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d6ec3ab544f220800000000000000
+      internalID: 2518714757794944570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 196
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89433e42a88bafa80800000000000000
+      internalID: -8432224448833964904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 197
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d728239f8c104d0800000000000000
+      internalID: -3170031690072294143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 196
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73df9c1f4a7300a0800000000000000
+      internalID: -6916550122509708418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 196
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0254065992882cc0800000000000000
+      internalID: -3735592295819095541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 196
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c331a41a7cc0fc0800000000000000
+      internalID: -3527224912591504258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 196
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b15463ec8a1c06b0800000000000000
+      internalID: -5328855066673393228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89748c5047037fc80800000000000000
+      internalID: -8289103314280757352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 196
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa562e711bc2d5d0800000000000000
+      internalID: -3039143522530338055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 196
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe285970a1c92c40800000000000000
+      internalID: 5488130515902410429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 132
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219435774ac8d69a0800000000000000
+      internalID: -6238175270833796846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 136
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf645e84f45bd990800000000000000
+      internalID: -7360195756670292033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 137
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93122ea3f0d18c450800000000000000
+      internalID: 6109164845777690937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 132
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23410baf3ffc61ad0800000000000000
+      internalID: -2731767477163781070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 132
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2e8694b7ec84cc0800000000000000
+      internalID: -3726501662741175645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 127
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b518eb192efa68f90800000000000000
+      internalID: -6951675587157130917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 132
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761c93b3d093e9e90800000000000000
+      internalID: -7017108440405655193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 132
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28743200b36839d70800000000000000
+      internalID: 9048723664280962946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 132
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b0003965de251b0800000000000000
+      internalID: -5669208024816809140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 68
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc731e9f08a8db300800000000000000
+      internalID: 269523839264831435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 72
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccac2080d24ebfd0800000000000000
+      internalID: -2324346894405555006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 73
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918ab02ee07f0a870800000000000000
+      internalID: 8692218924119074841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 68
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb6ca78e9cec4a20800000000000000
+      internalID: 3048071213448195063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 64
+        width: 21
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6759599a0961686d0800000000000000
+      internalID: -2988676492137491082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 64
+        width: 13
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263bcfa346b8a7ca0800000000000000
+      internalID: -6018344689424616606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 64
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30157a7079cfc0cf0800000000000000
+      internalID: -284574950832516861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 64
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1befdb1e402ffba0800000000000000
+      internalID: -6053083854315459813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 64
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d7e095c281dca40800000000000000
+      internalID: 5389990907784101128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33582a45cfa3a460800000000000000
+      internalID: 7251833086884205370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype Character 64x64 Sprite Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b720d4dfe08c59530800000000000000
+      internalID: 3861212222244848251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Prototype Character 64x64 Sprite Sheet_0: -6953597794262269617
+      Prototype Character 64x64 Sprite Sheet_1: 2716137164583468390
+      Prototype Character 64x64 Sprite Sheet_10: -5305895727123626734
+      Prototype Character 64x64 Sprite Sheet_11: 8668346758228259366
+      Prototype Character 64x64 Sprite Sheet_12: -8751699520284908764
+      Prototype Character 64x64 Sprite Sheet_13: -2842907684354370965
+      Prototype Character 64x64 Sprite Sheet_14: 4364425359676980525
+      Prototype Character 64x64 Sprite Sheet_15: -9001382680277585705
+      Prototype Character 64x64 Sprite Sheet_16: 7084461099924478148
+      Prototype Character 64x64 Sprite Sheet_17: 1332657977095762787
+      Prototype Character 64x64 Sprite Sheet_18: -5127573630805565564
+      Prototype Character 64x64 Sprite Sheet_19: 471029272316446894
+      Prototype Character 64x64 Sprite Sheet_2: 571162672044007473
+      Prototype Character 64x64 Sprite Sheet_20: -8900018351030995039
+      Prototype Character 64x64 Sprite Sheet_21: -3554829635570820880
+      Prototype Character 64x64 Sprite Sheet_22: -818355044290283862
+      Prototype Character 64x64 Sprite Sheet_23: -953291253691590643
+      Prototype Character 64x64 Sprite Sheet_24: 99268004942179101
+      Prototype Character 64x64 Sprite Sheet_25: -6976301079618067770
+      Prototype Character 64x64 Sprite Sheet_26: 1009968616397070075
+      Prototype Character 64x64 Sprite Sheet_27: -4931810078533459185
+      Prototype Character 64x64 Sprite Sheet_28: -8623663500333656398
+      Prototype Character 64x64 Sprite Sheet_29: -3101228905220091892
+      Prototype Character 64x64 Sprite Sheet_3: 9099751149243385405
+      Prototype Character 64x64 Sprite Sheet_30: -6727812830202381768
+      Prototype Character 64x64 Sprite Sheet_31: 1016566429000513500
+      Prototype Character 64x64 Sprite Sheet_32: -974159643079820705
+      Prototype Character 64x64 Sprite Sheet_33: 5147748298925184463
+      Prototype Character 64x64 Sprite Sheet_34: 945305471582635757
+      Prototype Character 64x64 Sprite Sheet_35: -2490038456485412580
+      Prototype Character 64x64 Sprite Sheet_36: 7279834678006826370
+      Prototype Character 64x64 Sprite Sheet_37: 4746375613597597784
+      Prototype Character 64x64 Sprite Sheet_38: -8808139256555941629
+      Prototype Character 64x64 Sprite Sheet_39: -5942220521244265238
+      Prototype Character 64x64 Sprite Sheet_4: 2684928599501565270
+      Prototype Character 64x64 Sprite Sheet_40: 1274127892493220784
+      Prototype Character 64x64 Sprite Sheet_41: -1612573685070998814
+      Prototype Character 64x64 Sprite Sheet_42: -8081768066770050092
+      Prototype Character 64x64 Sprite Sheet_43: -5179551232835710204
+      Prototype Character 64x64 Sprite Sheet_44: -7086419738893667504
+      Prototype Character 64x64 Sprite Sheet_45: 5994325885031221884
+      Prototype Character 64x64 Sprite Sheet_46: 7720690297144112535
+      Prototype Character 64x64 Sprite Sheet_47: -2202300464250360184
+      Prototype Character 64x64 Sprite Sheet_48: -5190918827718732952
+      Prototype Character 64x64 Sprite Sheet_49: 2784963641413013412
+      Prototype Character 64x64 Sprite Sheet_5: 2435452601374047278
+      Prototype Character 64x64 Sprite Sheet_50: -2107900034152282628
+      Prototype Character 64x64 Sprite Sheet_51: -863569893017724481
+      Prototype Character 64x64 Sprite Sheet_52: -2280156637563864674
+      Prototype Character 64x64 Sprite Sheet_53: 7291939957373222070
+      Prototype Character 64x64 Sprite Sheet_54: -7351426497694840084
+      Prototype Character 64x64 Sprite Sheet_55: 2518714757794944570
+      Prototype Character 64x64 Sprite Sheet_56: -8432224448833964904
+      Prototype Character 64x64 Sprite Sheet_57: -3170031690072294143
+      Prototype Character 64x64 Sprite Sheet_58: -6916550122509708418
+      Prototype Character 64x64 Sprite Sheet_59: -3735592295819095541
+      Prototype Character 64x64 Sprite Sheet_6: -1181459290604521510
+      Prototype Character 64x64 Sprite Sheet_60: -3527224912591504258
+      Prototype Character 64x64 Sprite Sheet_61: -5328855066673393228
+      Prototype Character 64x64 Sprite Sheet_62: -8289103314280757352
+      Prototype Character 64x64 Sprite Sheet_63: -3039143522530338055
+      Prototype Character 64x64 Sprite Sheet_64: 5488130515902410429
+      Prototype Character 64x64 Sprite Sheet_65: -6238175270833796846
+      Prototype Character 64x64 Sprite Sheet_66: -7360195756670292033
+      Prototype Character 64x64 Sprite Sheet_67: 6109164845777690937
+      Prototype Character 64x64 Sprite Sheet_68: -2731767477163781070
+      Prototype Character 64x64 Sprite Sheet_69: -3726501662741175645
+      Prototype Character 64x64 Sprite Sheet_7: -2319551052712682152
+      Prototype Character 64x64 Sprite Sheet_70: -6951675587157130917
+      Prototype Character 64x64 Sprite Sheet_71: -7017108440405655193
+      Prototype Character 64x64 Sprite Sheet_72: 9048723664280962946
+      Prototype Character 64x64 Sprite Sheet_73: -5669208024816809140
+      Prototype Character 64x64 Sprite Sheet_74: 269523839264831435
+      Prototype Character 64x64 Sprite Sheet_75: -2324346894405555006
+      Prototype Character 64x64 Sprite Sheet_76: 8692218924119074841
+      Prototype Character 64x64 Sprite Sheet_77: 3048071213448195063
+      Prototype Character 64x64 Sprite Sheet_78: -2988676492137491082
+      Prototype Character 64x64 Sprite Sheet_79: -6018344689424616606
+      Prototype Character 64x64 Sprite Sheet_8: 5458739459194480666
+      Prototype Character 64x64 Sprite Sheet_80: -284574950832516861
+      Prototype Character 64x64 Sprite Sheet_81: -6053083854315459813
+      Prototype Character 64x64 Sprite Sheet_82: 5389990907784101128
+      Prototype Character 64x64 Sprite Sheet_83: 7251833086884205370
+      Prototype Character 64x64 Sprite Sheet_84: 3861212222244848251
+      Prototype Character 64x64 Sprite Sheet_9: -6189826522303744455
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

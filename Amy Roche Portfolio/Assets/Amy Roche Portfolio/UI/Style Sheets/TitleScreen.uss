@@ -1,0 +1,24 @@
+:root {
+}
+
+.unity-label {
+    -unity-font-definition: url("project://database/Assets/Amy%20Roche%20Portfolio/UI/Fonts/Code%20New%20Roman/Code%20New%20Roman%20b.otf?fileID=12800000&guid=59f90994e2ccf7b42a4b9fe2265084df&type=3#Code New Roman b");
+}
+
+.unity-text-element {
+    -unity-font-definition: url("project://database/Assets/Amy%20Roche%20Portfolio/UI/Fonts/Code%20New%20Roman/Code%20New%20Roman%20b.otf?fileID=12800000&guid=59f90994e2ccf7b42a4b9fe2265084df&type=3#Code New Roman b");
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.unity-button {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(43, 43, 43);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: -62px;
+    border-left-color: rgb(191, 210, 226);
+    border-right-color: rgb(191, 210, 226);
+    border-top-color: rgb(191, 210, 226);
+    border-bottom-color: rgb(191, 210, 226);
+    color: rgb(191, 210, 226);
+}
