@@ -6,6 +6,6 @@
             <ui:Button text="ENTER" name="Enter" style="margin-top: 2%; margin-right: 2%; margin-bottom: 2%; margin-left: 2%; padding-left: 20%; padding-top: 8%; padding-right: 20%; padding-bottom: 8%;"/>
             <ui:Label text="To Skip" name="ToSkip"/>
         </ui:VisualElement>
-        <ui:Label text="AMY ROCHE" name="Title" style="white-space: pre; -unity-text-align: middle-left; height: 20%; align-self: center; position: absolute; top: 20%; -unity-font-definition: url(&quot;project://database/Assets/Amy%20Roche%20Portfolio/UI/Fonts/Murva/Murva%20Font%20Demo.ttf?fileID=12800000&amp;guid=de2424057c726f948b1fb54dc2b8ebd9&amp;type=3#Murva Font Demo&quot;); font-size: 100px; color: rgb(191, 210, 226);"/>
+        <ui:Label text="AMY ROCHE" name="Title" style="white-space: pre; -unity-text-align: middle-left; height: 20%; align-self: center; position: absolute; top: 20%; -unity-font-definition: url(&quot;project://database/Assets/Amy%20Roche%20Portfolio/UI/Fonts/Murva/Murva%20Font%20Demo.ttf?fileID=12800000&amp;guid=de2424057c726f948b1fb54dc2b8ebd9&amp;type=3#Murva Font Demo&quot;); font-size: 100px; color: rgb(239, 218, 148);"/>
     </ui:VisualElement>
 </ui:UXML>
