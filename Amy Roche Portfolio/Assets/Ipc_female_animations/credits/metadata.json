@@ -1,8 +1,26 @@
 {
-  "exportTimestamp": "2026-03-28T05-45-16",
+  "exportTimestamp": "2026-03-31T04-23-04",
   "bodyType": "female",
   "standardAnimations": {
-    "exported": [],
+    "exported": [
+      "spellcast",
+      "thrust",
+      "walk",
+      "slash",
+      "shoot",
+      "hurt",
+      "climb",
+      "idle",
+      "jump",
+      "sit",
+      "emote",
+      "run",
+      "watering",
+      "combat",
+      "1h_slash",
+      "1h_backslash",
+      "1h_halfslash"
+    ],
     "failed": []
   },
   "customAnimations": {

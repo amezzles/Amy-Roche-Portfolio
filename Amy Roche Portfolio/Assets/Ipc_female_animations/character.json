@@ -4,86 +4,90 @@
   "selections": {
     "body": {
       "itemId": "body",
-      "variant": "light",
+      "subId": null,
+      "variant": "",
+      "recolor": "light",
       "name": "Body Color (light)"
-    },
-    "head": {
-      "itemId": "heads_human_male",
-      "variant": "light",
-      "name": "Human Male (light)"
     },
     "expression": {
       "itemId": "face_neutral",
-      "variant": "light",
+      "subId": null,
+      "variant": "",
+      "recolor": "light",
       "name": "Neutral (light)"
-    },
-    "eye_color": {
-      "itemId": "eye_color",
-      "variant": "blue",
-      "name": "Eye Color (blue)"
     },
     "eyebrows": {
       "itemId": "eyebrows_thin",
-      "variant": "dark gray",
-      "name": "Thin Eyebrows (dark gray)"
+      "subId": null,
+      "variant": "gray",
+      "recolor": "",
+      "name": "Thin Eyebrows (gray)"
+    },
+    "head": {
+      "itemId": "heads_human_female",
+      "subId": null,
+      "variant": "",
+      "recolor": "light",
+      "name": "Human Female (light)"
     },
     "nose": {
       "itemId": "head_nose_button",
-      "variant": "light",
+      "subId": null,
+      "variant": "",
+      "recolor": "light",
       "name": "Button nose (light)"
     },
     "necklace": {
       "itemId": "neck_necklace",
-      "variant": "silver",
-      "name": "Necklace (silver)"
+      "subId": null,
+      "variant": "steel",
+      "recolor": "",
+      "name": "Necklace (steel)"
     },
     "hair": {
       "itemId": "hair_curls_large",
+      "subId": null,
       "variant": "platinum",
+      "recolor": "",
       "name": "Large Curls (platinum)"
     },
-    "earrings": {
-      "itemId": "facial_earrings_moon",
-      "variant": "silver",
-      "name": "Moon earrings (silver)"
-    },
-    "earring_left": {
-      "itemId": "facial_earring_left",
-      "variant": "silver",
-      "name": "Simple Earring Left (silver)"
-    },
-    "bracers": {
-      "itemId": "arms_bracers",
-      "variant": "silver",
-      "name": "Bracers (silver)"
-    },
-    "belt": {
-      "itemId": "belt_leather",
-      "variant": "slate",
-      "name": "Leather Belt (slate)"
+    "clothes": {
+      "itemId": "torso_clothes_tshirt_scoop",
+      "subId": null,
+      "variant": "charcoal",
+      "recolor": "",
+      "name": "TShirt Scoop (charcoal)"
     },
     "legs": {
       "itemId": "legs_cuffed",
-      "variant": "black",
-      "name": "Cuffed Pants (black)"
-    },
-    "clothes": {
-      "itemId": "torso_clothes_shortsleeve_cardigan",
-      "variant": "purple",
-      "name": "Shortsleeve Cardigan (purple)"
-    },
-    "jacket": {
-      "itemId": "torso_jacket_tabard",
-      "variant": "leather",
-      "name": "Tabard (leather)"
+      "subId": null,
+      "variant": "gray",
+      "recolor": "",
+      "name": "Cuffed Pants (gray)"
     },
     "shoes": {
-      "itemId": "feet_shoes_sara",
-      "variant": "steel",
-      "name": "Sara Shoes (steel)"
+      "itemId": "feet_shoes_basic",
+      "subId": null,
+      "variant": "black",
+      "recolor": "",
+      "name": "Basic Shoes (black)"
+    },
+    "bracers": {
+      "itemId": "arms_bracers",
+      "subId": null,
+      "variant": "silver",
+      "recolor": "",
+      "name": "Bracers (silver)"
+    },
+    "eyes": {
+      "itemId": "face_neutral",
+      "subId": 1,
+      "variant": "",
+      "recolor": "blue",
+      "name": "Eye Color (blue)"
     }
   },
-  "selectedAnimation": "sit",
+  "selectedAnimation": "idle",
   "showTransparencyGrid": true,
   "applyTransparencyMask": false,
   "matchBodyColorEnabled": true,
@@ -114,15 +118,17 @@
     "1h_backslash": false,
     "1h_halfslash": false
   },
-  "url": "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#sex=female&body=Body_Color_light&head=Human_Male_light&expression=Neutral_light&eye_color=Eye_Color_blue&eyebrows=Thin_Eyebrows_dark%20gray&nose=Button_nose_light&necklace=Necklace_silver&hair=Large_Curls_platinum&earrings=Moon_earrings_silver&earring_left=Simple_Earring_Left_silver&bracers=Bracers_silver&belt=Leather_Belt_slate&legs=Cuffed_Pants_black&clothes=Shortsleeve_Cardigan_purple&jacket=Tabard_leather&shoes=Sara_Shoes_steel",
+  "url": "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#sex=female&body=Body_Color_light&expression=Neutral_light&eyebrows=Thin_Eyebrows_gray&head=Human_Female_light&nose=Button_nose_light&necklace=Necklace_steel&hair=Large_Curls_platinum&clothes=TShirt_Scoop_charcoal&legs=Cuffed_Pants_gray&shoes=Basic_Shoes_black&bracers=Bracers_silver&eyes=Eye_Color_blue",
   "layers": [
     {
       "itemId": "hair_curls_large",
       "variant": "platinum",
+      "recolors": null,
       "zPos": 9,
       "layerNum": 2,
       "yPos": 0,
       "isCustom": false,
+      "needsRecolor": false,
       "fileName": "hair/curls_large/adult/bg/spellcast/platinum.png",
       "supportedAnimations": [
         "spellcast",
@@ -144,12 +150,16 @@
     },
     {
       "itemId": "body",
-      "variant": "light",
+      "variant": "",
+      "recolors": {
+        "body": "light"
+      },
       "zPos": 10,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "body/bodies/female/spellcast/light.png",
+      "needsRecolor": false,
+      "fileName": "body/bodies/female/spellcast.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -169,13 +179,15 @@
       ]
     },
     {
-      "itemId": "feet_shoes_sara",
-      "variant": "steel",
+      "itemId": "feet_shoes_basic",
+      "variant": "black",
+      "recolors": null,
       "zPos": 15,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "feet/shoes/sara/thin/spellcast/steel.png",
+      "needsRecolor": false,
+      "fileName": "feet/shoes/basic/thin/spellcast/black.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -196,12 +208,14 @@
     },
     {
       "itemId": "legs_cuffed",
-      "variant": "black",
+      "variant": "gray",
+      "recolors": null,
       "zPos": 20,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "legs/cuffed/thin/spellcast/black.png",
+      "needsRecolor": false,
+      "fileName": "legs/cuffed/thin/spellcast/gray.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -221,13 +235,15 @@
       ]
     },
     {
-      "itemId": "torso_clothes_shortsleeve_cardigan",
-      "variant": "purple",
+      "itemId": "torso_clothes_tshirt_scoop",
+      "variant": "charcoal",
+      "recolors": null,
       "zPos": 35,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "torso/clothes/shortsleeve/shortsleeve_cardigan/female/spellcast/purple.png",
+      "needsRecolor": false,
+      "fileName": "torso/clothes/shortsleeve/tshirt_scoop/female/spellcast/charcoal.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -244,32 +260,17 @@
         "combat_idle",
         "backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "torso_jacket_tabard",
-      "variant": "leather",
-      "zPos": 55,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "torso/jacket/tabard/female/spellcast/leather.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt"
       ]
     },
     {
       "itemId": "arms_bracers",
       "variant": "silver",
+      "recolors": null,
       "zPos": 70,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
+      "needsRecolor": false,
       "fileName": "arms/bracers/female/spellcast/silver.png",
       "supportedAnimations": [
         "spellcast",
@@ -282,30 +283,15 @@
       ]
     },
     {
-      "itemId": "belt_leather",
-      "variant": "slate",
-      "zPos": 70,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "torso/waist/belt_leather/female/spellcast/slate.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt"
-      ]
-    },
-    {
       "itemId": "neck_necklace",
-      "variant": "silver",
+      "variant": "steel",
+      "recolors": null,
       "zPos": 80,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "neck/necklace/female/spellcast/silver.png",
+      "needsRecolor": false,
+      "fileName": "neck/necklace/female/spellcast/steel.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -317,13 +303,18 @@
       ]
     },
     {
-      "itemId": "heads_human_male",
-      "variant": "light",
+      "itemId": "heads_human_female",
+      "variant": "",
+      "recolors": {
+        "head": "light",
+        "eyes": "blue"
+      },
       "zPos": 100,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "head/heads/human/male/spellcast/light.png",
+      "needsRecolor": false,
+      "fileName": "head/heads/human/female/spellcast.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -344,44 +335,23 @@
     },
     {
       "itemId": "face_neutral",
-      "variant": "light",
+      "variant": "",
+      "recolors": {
+        "expression": "light",
+        "eyes": "blue"
+      },
       "zPos": 101,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "head/faces/male/neutral/spellcast/light.png",
+      "needsRecolor": false,
+      "fileName": "head/faces/female/neutral/spellcast.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
         "walk",
         "slash",
         "shoot",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
-        "halfslash"
-      ]
-    },
-    {
-      "itemId": "eye_color",
-      "variant": "blue",
-      "zPos": 105,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "eyes/human/${head}/neutral/spellcast/blue.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
         "idle",
         "jump",
         "sit",
@@ -394,12 +364,16 @@
     },
     {
       "itemId": "head_nose_button",
-      "variant": "light",
+      "variant": "",
+      "recolors": {
+        "nose": "light"
+      },
       "zPos": 105,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "head/nose/button/adult/spellcast/light.png",
+      "needsRecolor": false,
+      "fileName": "head/nose/button/adult/spellcast.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -420,55 +394,14 @@
     },
     {
       "itemId": "eyebrows_thin",
-      "variant": "dark gray",
+      "variant": "gray",
+      "recolors": null,
       "zPos": 106,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
-      "fileName": "eyes/eyebrows/thin/adult/spellcast/dark_gray.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
-        "halfslash"
-      ]
-    },
-    {
-      "itemId": "facial_earrings_moon",
-      "variant": "silver",
-      "zPos": 115,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "facial/earrings/moon/female/spellcast/silver.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt"
-      ]
-    },
-    {
-      "itemId": "facial_earring_left",
-      "variant": "silver",
-      "zPos": 115,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "facial/earrings/simple/left/adult/spellcast/silver.png",
+      "needsRecolor": false,
+      "fileName": "eyes/eyebrows/thin/adult/spellcast/gray.png",
       "supportedAnimations": [
         "spellcast",
         "thrust",
@@ -490,10 +423,12 @@
     {
       "itemId": "hair_curls_large",
       "variant": "platinum",
+      "recolors": null,
       "zPos": 120,
       "layerNum": 1,
       "yPos": 0,
       "isCustom": false,
+      "needsRecolor": false,
       "fileName": "hair/curls_large/adult/fg/spellcast/platinum.png",
       "supportedAnimations": [
         "spellcast",
@@ -516,7 +451,7 @@
   ],
   "credits": [
     {
-      "fileName": "body/bodies/female/sit/light.png",
+      "fileName": "body/bodies/female/idle.png",
       "file": "body/bodies/female",
       "notes": "see details at https://opengameart.org/content/lpc-character-bases",
       "authors": [
@@ -551,26 +486,7 @@
       ]
     },
     {
-      "fileName": "head/heads/human/male/sit/light.png",
-      "file": "head/heads/human/male",
-      "notes": "original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16",
-      "authors": [
-        "bluecarrot16",
-        "Benjamin K. Smith (BenCreating)",
-        "Stephen Challener (Redshrike)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0",
-        "CC-BY-SA 3.0",
-        "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
-        "https://opengameart.org/content/lpc-character-bases"
-      ]
-    },
-    {
-      "fileName": "head/faces/male/neutral/sit/light.png",
+      "fileName": "head/faces/female/neutral/idle.png",
       "file": "head/faces",
       "notes": "Original by Redshrike, Expressions by ElizaWy, mapped to all frames by JaidynReiman",
       "authors": [
@@ -587,25 +503,7 @@
       ]
     },
     {
-      "fileName": "eyes/human/${head}/neutral/sit/blue.png",
-      "file": "eyes/human",
-      "notes": "original by Redshrike, mapped to all frames by Matthew Krohn & JaidynReiman",
-      "authors": [
-        "JaidynReiman",
-        "Matthew Krohn (makrohn)",
-        "Stephen Challener (Redshrike)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0",
-        "CC-BY-SA 3.0",
-        "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles"
-      ]
-    },
-    {
-      "fileName": "eyes/eyebrows/thin/adult/sit/dark_gray.png",
+      "fileName": "eyes/eyebrows/thin/adult/idle/gray.png",
       "file": "eyes/eyebrows/thin",
       "notes": "",
       "authors": [
@@ -620,7 +518,26 @@
       ]
     },
     {
-      "fileName": "head/nose/button/adult/sit/light.png",
+      "fileName": "head/heads/human/female/idle.png",
+      "file": "head/heads/human/female",
+      "notes": "original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16",
+      "authors": [
+        "bluecarrot16",
+        "Benjamin K. Smith (BenCreating)",
+        "Stephen Challener (Redshrike)"
+      ],
+      "licenses": [
+        "OGA-BY 3.0",
+        "CC-BY-SA 3.0",
+        "GPL 3.0"
+      ],
+      "urls": [
+        "https://opengameart.org/content/",
+        "https://opengameart.org/content/lpc-character-bases"
+      ]
+    },
+    {
+      "fileName": "head/nose/button/adult/idle.png",
       "file": "head/nose/button",
       "notes": "",
       "authors": [
@@ -637,7 +554,7 @@
       ]
     },
     {
-      "fileName": "neck/necklace/female/sit/silver.png",
+      "fileName": "neck/necklace/female/idle/steel.png",
       "file": "neck/necklace",
       "notes": "extra animations by bluecarrot16",
       "authors": [
@@ -654,7 +571,7 @@
       ]
     },
     {
-      "fileName": "hair/curls_large/adult/fg/sit/platinum.png",
+      "fileName": "hair/curls_large/adult/fg/idle/platinum.png",
       "file": "hair/curls_large",
       "notes": "",
       "authors": [
@@ -670,71 +587,27 @@
       ]
     },
     {
-      "fileName": "facial/earrings/moon/female/sit/silver.png",
-      "file": "facial/earrings/moon",
-      "notes": "",
+      "fileName": "torso/clothes/shortsleeve/tshirt_scoop/female/idle/charcoal.png",
+      "file": "torso/clothes/shortsleeve/tshirt_scoop",
+      "notes": "original by ElizaWy; spellcast/thrust/shoot/hurt/male adapted from original by JaidynReiman",
       "authors": [
-        "bluecarrot16"
-      ],
-      "licenses": [
-        "CC0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/lpc-jewelry"
-      ]
-    },
-    {
-      "fileName": "facial/earrings/simple/left/adult/sit/silver.png",
-      "file": "facial/earrings/simple",
-      "notes": "",
-      "authors": [
-        "bluecarrot16"
-      ],
-      "licenses": [
-        "CC0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/lpc-pirates"
-      ]
-    },
-    {
-      "fileName": "arms/bracers/female/sit/silver.png",
-      "file": "arms/bracers",
-      "notes": "",
-      "authors": [
-        "Matthew Krohn (makrohn)",
+        "ElizaWy",
+        "JaidynReiman",
+        "Stephen Challener (Redshrike)",
         "Johannes Sjölund (wulax)"
       ],
       "licenses": [
-        "OGA-BY 3.0",
-        "CC-BY-SA 3.0",
-        "GPL 3.0"
+        "OGA-BY 3.0"
       ],
       "urls": [
-        "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites"
+        "http://opengameart.org/content/lpc-revised-character-basics",
+        "https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing",
+        "https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+        "https://opengameart.org/content/lpc-expanded-simple-shirts"
       ]
     },
     {
-      "fileName": "torso/waist/belt_leather/female/sit/slate.png",
-      "file": "torso/waist/belt_leather",
-      "notes": "",
-      "authors": [
-        "bluecarrot16",
-        "Johannes Sjölund (wulax)",
-        "Matthew Krohn (makrohn)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0",
-        "CC-BY-SA 3.0",
-        "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/lpc-combat-armor-for-women",
-        "https://opengameart.org/content/lpc-pirates"
-      ]
-    },
-    {
-      "fileName": "legs/cuffed/thin/sit/black.png",
+      "fileName": "legs/cuffed/thin/idle/gray.png",
       "file": "legs/cuffed",
       "notes": "Original bases by Redshrike, thrust/shoot bases by Wulax, original cuffed pants by ElizaWy, climb/jump/run/sit/emotes/revised combat by JaidynReiman",
       "authors": [
@@ -753,29 +626,11 @@
       ]
     },
     {
-      "fileName": "torso/clothes/shortsleeve/shortsleeve_cardigan/female/sit/purple.png",
-      "file": "torso/clothes/shortsleeve/shortsleeve_cardigan",
-      "notes": "original by ElizaWy; shortsleeve cardigan adapted from original by JaidynReiman",
+      "fileName": "feet/shoes/basic/thin/idle/black.png",
+      "file": "feet/shoes",
+      "notes": "original by wulax, edited for v3 base by bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman",
       "authors": [
-        "ElizaWy",
         "JaidynReiman",
-        "Stephen Challener (Redshrike)",
-        "Johannes Sjölund (wulax)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0"
-      ],
-      "urls": [
-        "https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing",
-        "https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
-        "https://opengameart.org/content/lpc-expanded-simple-shirts"
-      ]
-    },
-    {
-      "fileName": "torso/jacket/tabard/female/sit/leather.png",
-      "file": "torso/jacket/tabard",
-      "notes": "original by wulax, edited to v3 base by bluecarrot16",
-      "authors": [
         "bluecarrot16",
         "Johannes Sjölund (wulax)"
       ],
@@ -786,30 +641,25 @@
       ],
       "urls": [
         "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites",
-        "http://opengameart.org/content/lpc-clothing-updates"
+        "http://opengameart.org/content/lpc-clothing-updates",
+        "https://opengameart.org/content/lpc-expanded-socks-shoes"
       ]
     },
     {
-      "fileName": "feet/shoes/sara/thin/sit/steel.png",
-      "file": "feet/shoes/sara/thin",
-      "notes": "LPC Sara by Redshrike, contributed by William Thompsonj, Shoes Separated by Bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman",
+      "fileName": "arms/bracers/female/idle/silver.png",
+      "file": "arms/bracers",
+      "notes": "",
       "authors": [
-        "JaidynReiman",
-        "Bluecarrot16",
-        "Mandi Paugh",
-        "Stephen Challener (Redshrike)",
-        "William.Thompsonj"
+        "Matthew Krohn (makrohn)",
+        "Johannes Sjölund (wulax)"
       ],
       "licenses": [
         "OGA-BY 3.0",
-        "CC-BY 3.0+",
-        "GPL 2.0",
+        "CC-BY-SA 3.0",
         "GPL 3.0"
       ],
       "urls": [
-        "http://opengameart.org/content/sara-wizard",
-        "https://opengameart.org/content/lpc-sara",
-        "https://opengameart.org/content/lpc-expanded-socks-shoes"
+        "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites"
       ]
     }
   ]
