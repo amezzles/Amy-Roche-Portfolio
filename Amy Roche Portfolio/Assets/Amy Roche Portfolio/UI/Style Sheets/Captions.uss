@@ -1,0 +1,8 @@
+:root {
+}
+
+.unity-text-element {
+    -unity-font-definition: url("project://database/Assets/Amy%20Roche%20Portfolio/UI/Fonts/Coder's%20Crux%202/Coder's%20Crux%202.ttf?fileID=12800000&guid=62f70db01f54390428a8714fed29965d&type=3#Coder's Crux 2");
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}

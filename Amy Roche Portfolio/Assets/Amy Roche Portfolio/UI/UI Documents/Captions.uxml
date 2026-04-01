@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Amy%20Roche%20Portfolio/UI/Style%20Sheets/Captions.uss?fileID=7433441132597879392&amp;guid=3fa93d2e4bc33af46baeeca141914437&amp;type=3#Captions"/>
+    <ui:Label text="Caption" name="CaptionLabel" parse-escape-sequences="false" style="bottom: 10%; position: absolute; right: 0; left: 0; -unity-text-align: middle-center;"/>
+</ui:UXML>
