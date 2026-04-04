@@ -105,6 +105,15 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
+#sprite-character {
+    height: 80px;
+    width: auto;
+    image-rendering: pixelated;
+    margin-bottom: 10px;
+    display: inline-block;
+    will-change: transform;
+}
+
 /* =========================================
    5. PROJECTS & CARDS
    ========================================= */
@@ -177,7 +186,7 @@ nav a:hover {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     border-radius: 8px;
@@ -286,4 +295,41 @@ nav a:hover {
         text-align: center;
         gap: 20px;
     }
+}
+
+/* =========================================
+   11. FEATURED IN SECTION
+   ========================================= */
+.featured {
+    padding: 50px 10% 100px;
+    text-align: center;
+}
+
+.featured-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.featured-list li {
+    font-size: 1.1rem;
+}
+
+.featured-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.featured-list a::before {
+    content: "▹ ";
+    color: var(--accent-color);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.featured-list a:hover {
+    color: var(--accent-color);
+    text-shadow: 0 0 10px var(--accent-color);
 }

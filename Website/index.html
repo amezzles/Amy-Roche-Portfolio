@@ -15,6 +15,7 @@
         <ul>
             <li><a href="#title">Home</a></li>
             <li><a href="#projects">Games</a></li>
+            <li><a href="#featured">Features</a></li>
             <li><a href="#about">About Me</a></li>
         </ul>
     </nav>
@@ -22,6 +23,7 @@
     <!-- Title -->
     <section id="title" class="title">
         <div class="title-content">
+            <img id="sprite-character" src="assets/SpriteCharacter/Idle.gif" alt="Sprite">
             <h1><span class="highlight">Amy Roche</span></h1>
             <p>Game Developer | Storyteller | Creative Thinker</p>
             <a href="#projects" class="btn">View My Work</a>
@@ -116,10 +118,70 @@
 
     </section>
 
+    <!-- Featured In Section -->
+    <section id="featured" class="featured">
+        <h2 class="section-title">Featured In</h2>
+        <ul class="featured-list">
+            <li><a href="https://www.gamesstudio.org/articles/celebrating-9-years-innovation-and-collaboration" target="_blank">UTS 2025 End of Year Music/Games Showcase</a></li>
+            <li><a href="https://www.gamesstudio.org/articles/classroom-global-stage-students-present-sxsw" target="_blank">SXSW Sydney 2025 Student Games Showcase</a></li>
+            <li><a href="https://www.gamesstudio.org/articles/pitching-purpose-how-waypoint%E2%80%99s-%E2%80%9Creal-talk-no-stakes%E2%80%9D-gave-uts-game-devs-glimpse-industry" target="_blank">UTS Tech Fest 2025, Waypoint Presents: Pitch – Real Talk, No Stakes</a></li>
+            <li><a href="https://www.gamesstudio.org/articles/record-breaking-uts-games-showcase-celebrates-nine-years-student-innovation" target="_blank">UTS Tech Fest 2025 Games Showcase</a></li>
+        </ul>
+    </section>
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Amy Roche. Built with HTML, CSS, and Curiosity.</p>
     </footer>
+
+    <script>
+        const sprite = document.getElementById('sprite-character');
+        const idleImg = 'assets/SpriteCharacter/Idle.gif';
+        const walkImg = 'assets/SpriteCharacter/Walk.gif';
+        
+        let xPos = 0;
+        let isMovingLeft = false;
+        let isMovingRight = false;
+        let isWalking = false;
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') isMovingLeft = true;
+            if (e.key === 'ArrowRight') isMovingRight = true;
+        });
+
+        document.addEventListener('keyup', (e) => {
+            if (e.key === 'ArrowLeft') isMovingLeft = false;
+            if (e.key === 'ArrowRight') isMovingRight = false;
+        });
+
+        function gameLoop() {
+            let moved = false;
+
+            if (isMovingLeft) {
+                xPos -= 4;
+                sprite.style.transform = `translateX(${xPos}px) scaleX(-1)`;
+                moved = true;
+            } else if (isMovingRight) {
+                xPos += 4; 
+                sprite.style.transform = `translateX(${xPos}px) scaleX(1)`;
+                moved = true;
+            }
+
+            if (moved && !isWalking) {
+                sprite.src = walkImg;
+                isWalking = true;
+            } else if (!moved && isWalking) {
+                sprite.src = idleImg;
+                isWalking = false;
+            }
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        gameLoop();
+    </script>
+</body>
+</html>
 
 </body>
 </html>
