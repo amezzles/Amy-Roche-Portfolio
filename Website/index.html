@@ -14,9 +14,10 @@
         <div class="logo">Amy Roche</div>
         <ul>
             <li><a href="#title">Home</a></li>
-            <li><a href="#projects">Games</a></li>
-            <li><a href="#featured">Featured</a></li>
             <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Games</a></li>
+            <li><a href="#other-projects">Other Projects</a></li>
+            <li><a href="#featured">Featured</a></li>
         </ul>
     </nav>
 
@@ -275,14 +276,13 @@
 
         function gameLoop() {
             let moved = false;
+            const screenHalfWidth = window.innerWidth / 2;
 
             if (isMovingLeft) {
                 xPos -= 4;
-                sprite.style.transform = `translateX(${xPos}px) scaleX(-1)`;
                 moved = true;
             } else if (isMovingRight) {
                 xPos += 4; 
-                sprite.style.transform = `translateX(${xPos}px) scaleX(1)`;
                 moved = true;
             }
 
@@ -292,6 +292,23 @@
             } else if (!moved && isWalking) {
                 sprite.src = idleImg;
                 isWalking = false;
+            }
+            
+            if (xPos > screenHalfWidth) {
+                xPos = -screenHalfWidth;
+            }
+            
+            if (xPos < -screenHalfWidth) {
+                xPos = screenHalfWidth;
+            }
+
+            if (isMovingLeft) {
+                sprite.style.transform = `translateX(${xPos}px) scaleX(-1)`;
+            } else if (isMovingRight) {
+                sprite.style.transform = `translateX(${xPos}px) scaleX(1)`;
+            } else {
+                const currentScaleX = sprite.style.transform.includes('scaleX(-1)') ? -1 : 1;
+                sprite.style.transform = `translateX(${xPos}px) scaleX(${currentScaleX})`;
             }
 
             requestAnimationFrame(gameLoop);
