@@ -178,18 +178,18 @@ nav a:hover {
 /* Custom Project Colours */
 
 .theme-raccoon {
-    --accent-color: lab(rgb(95,98,117));
-    --text-color: hsl(rgb(223,224,230));
+    --accent-color: rgb(95,98,117);
+    --text-color: rgb(223,224,230);
 }
 
 .theme-unspoken {
-    --accent-color: #b700ff;
-    --text-color: #e0e0e0;
+    --accent-color: rgb(230,157,95);
+    --text-color: rgb(104,137,151);
 }
 
 .theme-flicker {
-    --accent-color: #b700ff;
-    --text-color: #e0e0e0;
+    --accent-color: rgb(247,200,0);
+    --text-color: rgb(119,164,207);
 }
 
 
