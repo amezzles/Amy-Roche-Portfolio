@@ -175,6 +175,24 @@ nav a:hover {
     direction: ltr;
 }
 
+/* Custom Project Colours */
+
+.theme-raccoon {
+    --accent-color: lab(rgb(95,98,117));
+    --text-color: hsl(rgb(223,224,230));
+}
+
+.theme-unspoken {
+    --accent-color: #b700ff;
+    --text-color: #e0e0e0;
+}
+
+.theme-flicker {
+    --accent-color: #b700ff;
+    --text-color: #e0e0e0;
+}
+
+
 /* =========================================
    6. PROJECT MEDIA (Video & Images)
    ========================================= */
@@ -302,34 +320,23 @@ nav a:hover {
    ========================================= */
 .featured {
     padding: 50px 10% 100px;
-    text-align: center;
+    text-align: left;
 }
 
-.featured-list {
-    list-style: none;
+.featured-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.featured-list li {
     font-size: 1.1rem;
 }
 
-.featured-list a {
+.featured-content a {
     color: var(--text-color);
     text-decoration: none;
     transition: 0.3s ease;
 }
 
-.featured-list a::before {
-    content: "▹ ";
-    color: var(--accent-color);
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.featured-list a:hover {
+.featured-content a:hover {
     color: var(--accent-color);
     text-shadow: 0 0 10px var(--accent-color);
 }
