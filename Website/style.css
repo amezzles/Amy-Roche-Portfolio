@@ -49,8 +49,9 @@ body {
 }
 
 .description {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    font-size: x-large;
 }
 
 /* =========================================
@@ -160,23 +161,12 @@ nav a:hover {
 }
 
 .project-content {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    gap: 10px;
-}
-
-/* Reverse Layout specific styling */
-.project-card.reverse .project-content {
-    direction: rtl;
-}
-
-.project-card.reverse .project-info, 
-.project-card.reverse .project-media {
-    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* Custom Project Colours */
-
 .theme-raccoon {
     --accent-color: rgb(95,98,117);
     --text-color: rgb(223,224,230);
@@ -192,11 +182,9 @@ nav a:hover {
     --text-color: rgb(119,164,207);
 }
 
-
 /* =========================================
    6. PROJECT MEDIA (Video & Images)
    ========================================= */
-
 .project-media {
     border-bottom: 1px solid #333;
     padding-bottom: 25px;
@@ -242,10 +230,21 @@ nav a:hover {
     padding: 20px;
 }
 
+.info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.contributions {
+    flex: 1;
+}
+
 .contribution-list {
     list-style: none;
     margin-top: 10px;
-    font-size: small;
+    font-size: medium;
 }
 
 .contribution-list li::before {
@@ -271,7 +270,7 @@ nav a:hover {
 }
 
 .award img {
-    height: 80px;
+    height: 100px;
     width: auto;
     object-fit: contain;
 }
@@ -279,24 +278,35 @@ nav a:hover {
 /* =========================================
    9. BUTTONS
    ========================================= */
-.btn, .btn-small {
+.btn, .btn-small, .btn-play {
     display: inline-block;
     background: var(--accent-color);
     color: #000;
-    padding: 12px 30px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    margin-top: 20px;
     transition: 0.3s;
+}
+
+.btn {
+    padding: 12px 30px;
+    margin-top: 20px;
 }
 
 .btn-small {
     padding: 8px 20px;
     font-size: 0.9rem;
+    margin-top: 20px;
 }
 
-.btn:hover, .btn-small:hover {
+.btn-play {
+    padding: 15px 50px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.btn:hover, .btn-small:hover, .btn-play:hover {
     box-shadow: 0 0 20px var(--accent-color);
 }
 
@@ -304,23 +314,122 @@ nav a:hover {
    10. RESPONSIVE DESIGN
    ========================================= */
 @media (max-width: 1000px) {
-    .project-content {
-        grid-template-columns: 1fr;
-    }
-    
     .project-header {
         flex-direction: column;
         text-align: center;
         gap: 20px;
     }
+
+    .info-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-play {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 /* =========================================
-   11. FEATURED IN SECTION
+   11. OTHER PROJECTS
+   ========================================= */
+.other-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.minor-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.minor-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+}
+
+.minor-card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.minor-card-content {
+    padding: 20px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.minor-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.minor-card-content h3 {
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+    color: var(--accent-color);
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.minor-card-content h3:only-child {
+    margin-bottom: 15px;
+}
+
+.minor-card-content p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.minor-award-laurel {
+    width: 170px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.minor-card-content .btn-small,
+.minor-video-container {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.minor-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.minor-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* =========================================
+   12. FEATURED IN SECTION
    ========================================= */
 .featured {
     padding: 50px 10% 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .featured-content {
