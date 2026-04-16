@@ -66,6 +66,7 @@ nav {
     width: 100%;
     z-index: 100;
     background: rgba(15, 15, 19, 0.9);
+    box-sizing: border-box;
 }
 
 nav ul {
@@ -313,24 +314,69 @@ nav a:hover {
 }
 
 /* =========================================
-   10. RESPONSIVE DESIGN
-   ========================================= */
+10. RESPONSIVE DESIGN
+========================================= */
 @media (max-width: 1000px) {
+
+    nav {
+        padding: 1rem 5%;
+    }
+    nav .logo {
+        display: none;
+    }
+    nav ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    nav ul li {
+        margin-left: 0;
+    }
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    .projects {
+        padding: 60px 5%;
+    }
+    .project-card {
+        padding: 20px;
+    }
     .project-header {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 15px;
     }
-
+    .project-logo {
+        max-height: 80px;
+        max-width: 100%;
+    }
+    .awards-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .award img {
+        height: 70px;
+        max-width: 100%;
+    }
     .info-footer {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .btn-play {
         width: 100%;
         text-align: center;
         margin-top: 20px;
+    }
+
+    .minor-card-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .minor-award-laurel {
+        width: 100px;
     }
 }
 
