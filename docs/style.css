@@ -92,7 +92,8 @@ nav a:hover {
    4. TITLE SECTION
    ========================================= */
 .title {
-    height: 100vh;
+    min-height: 100vh;
+    height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,8 +287,9 @@ nav a:hover {
     font-weight: bold;
     border-radius: 5px;
     transition: 0.3s;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
 }
-
 .btn {
     padding: 12px 30px;
     margin-top: 20px;
@@ -432,11 +434,11 @@ nav a:hover {
     text-align: center;
 }
 
-.featured-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-size: 1.1rem;
+.featured-content a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .featured-content a {
