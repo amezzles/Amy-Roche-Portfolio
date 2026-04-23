@@ -26,7 +26,6 @@
         <div class="title-content">
             <img id="sprite-character" src="assets/SpriteCharacter/Idle.gif" alt="Sprite">
             <h1><span class="highlight">Amy Roche</span></h1>
-            <p>Game Developer | Storyteller | Creative Thinker</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
     </section>
@@ -58,10 +57,8 @@
 
         <!-- PROJECT 1: RACCOON RIOT -->
         <div class="project-card theme-raccoon">
-            <!-- Title & Award Section -->
             <div class="project-header">
                 <img src="assets/RaccoonLogo.png" alt="Raccoon Riot Logo" class="project-logo">
-                <!-- Award Laurels -->
                 <div class="awards-container">
                     <div class="award">
                         <img src="assets/RaccoonAward1.png" alt="Award">
@@ -77,9 +74,14 @@
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/JwVisF-17L0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <div class="image-row">
-                        <img src="assets/Raccoon1.png" alt="Screenshot">
-                        <img src="assets/Raccoon2.png" alt="Screenshot">
+                    <div class="image-row-wrapper">
+                        <div class="image-row">
+                            <img src="assets/Raccoon1.png" alt="Screenshot">
+                            <img src="assets/Raccoon2.png" alt="Screenshot">
+                            <img src="assets/Raccoon3.png" alt="Screenshot">
+                            <img src="assets/Raccoon5.png" alt="Screenshot">
+                        </div>
+                        <a href="https://leilamei.itch.io/raccoon-riot" target="_blank" class="btn-play overlaid-play-btn">Play Game</a>
                     </div>
                 </div>
 
@@ -87,23 +89,96 @@
                     <p class="description">
                         An action-packed multiplayer party game that puts players in the mischievous minds of raccoons on a midnight raid.
                     </p>
-                     <div class="info-footer">
-                        <div class="contributions">
-                            <h3 class="highlight">My Main Contributions:</h3>
-                            <ul class="contribution-list">
-                                <li>Creative direction and game design.</li>
-                                <li>Team management and task delegation.</li>
-                                <li>Player movement, actions, and animations.</li>
-                                <li>Visual effects (particles, shaders, decals).</li>
-                                <li>Item physics and interaction.</li>
-                                <li>UI visuals and functionality.</li>
-                                <li>Scene switching, cleanup, and endgame logic.</li>
-                                <li>Major debugging and refactoring.</li>
-                            </ul>
-                        </div>
-                        <a href="https://leilamei.itch.io/raccoon-riot" target="_blank" class="btn-play">Play</a>
-                    </div>
                 </div>
+            </div>
+
+            <!-- Development Section -->
+            <div class="project-dev-section">
+                <h3>Development Insights</h3>
+
+                <!-- Gallery -->
+
+                <!--
+                <div class="item-details">
+                    <div class="item-header"></div>
+                    <p>  </p>
+                </div>
+                -->
+                
+                <div class="dev-gallery">
+
+                    <div class="dev-gallery-item text-item">
+                        <div class="item-header">Contributions Summary</div>
+                        <ul class="contribution-list">
+                            <li>Creative direction and game design.</li>
+                            <li>Team management and task delegation.</li>
+                            <li>Player movement, actions, and animations.</li>
+                            <li>Visual effects (particles, shaders, decals).</li>
+                            <li>Item physics and interaction.</li>
+                            <li>UI visuals and functionality.</li>
+                            <li>Scene switching, cleanup, and endgame logic.</li>
+                            <li>Major debugging and refactoring.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="dev-gallery-item">
+                        <img src="assets/raccoonBug.gif" alt="Raccoon Bug">
+
+                        <div class="item-details">
+                            <div class="item-header">Early destruction physics bug</div>
+                            <p>I spent a lot of time making small code adjustments to a free Unity chaos physics program to fit our use case, and tuning the settings for different items. As you can see, the intention to make an exploding 'Roomba' did not work at first as intended.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/raccoonDamage.gif" alt="Raccoon Damage">
+
+                        <div class="item-details">
+                            <div class="item-header">Raccoon Damage, Health, & Death</div>
+                            <p>Instead of having a health bar UI element, I thought it would be a lot better to use an increasing amount of scratch decals on the Raccoon to indicate health. This makes sure that the player isn't too overwhelmed by information and makes the health system more intuitive for such a fast-paced game. The Raccoon's movement also slows & their walking animation changes when they are more damaged, again so they player doesn't have lots of UI to keep track of.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/raccoonInteraction.gif" alt="Raccoon Interaction">
+
+                        <div class="item-details">
+                            <div class="item-header">Interaction System Early Development</div>
+                            <p>Making the different interactable objects was very fun. I had a lot of issues early on with the controls UI for different interactable objects. It took me a while to figure out how to get it to work, and to appear as the correct button on the correct type of interaction (pickup, drop, throw, interact, destruction).</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <div class="item-details">
+                            <div class="item-header">Player Combat System Progress</div>
+                        </div>
+                        <img src="assets/RaccoonPR1.png" alt="Git Commit History">
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/raccoonScratch.gif" alt="Raccoon Scratch">
+                        
+                        <div class="item-details">
+                            <div class="item-header">Scratch Destruction</div>
+                            <p>Learning the Unity decals system for the first time was really fun and I was proud of being able to achieve this scratch effect that can be performed on any wall or object in the game. It also adds to the player's overall points.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/highlight.gif" alt="Object Highlight Effect">
+                        
+                        <div class="item-details">
+                            <div class="item-header">Object Highlight Effect</div>
+                            <p>There were a lot of issues in early playtesting with player's not being able to find 'task-related' objects. This effect I implemented fixed a lot of those issues.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <div class="item-details">
+                            <div class="item-header">Bug Fix PR before SXSW</div>
+                        </div>
+                        <img src="assets/RaccoonPR2.png" alt="Git Commit History">
+                    </div>
             </div>
         </div>
 
@@ -112,7 +187,6 @@
             <div class="project-header">
                 <img src="assets/UnspokenLogo.png" alt="Unspoken Logo" class="project-logo">
                 <div class="awards-container">
-                    <!-- Add award here -->
                 </div>
             </div>
             <div class="project-content">
@@ -120,29 +194,102 @@
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/9GjKifjIOE0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <div class="image-row">
-                        <img src="assets/Unspoken1.png" alt="Screenshot">
-                        <img src="assets/Unspoken2.png" alt="Screenshot">
+                    <div class="image-row-wrapper">
+                        <div class="image-row">
+                            <img src="assets/Unspoken1.png" alt="Screenshot">
+                            <img src="assets/Unspoken2.png" alt="Screenshot">
+                            <img src="assets/Unspoken3.png" alt="Screenshot">
+                        </div>
+                        <a href="https://leilamei.itch.io/unspoken" target="_blank" class="btn-play overlaid-play-btn">Play Game</a>
                     </div>
                 </div>
                 <div class="project-info">
                     <p class="description">A linguistic puzzle adventure about listening, understanding, and finding your way home.</p>
-                    <div class="info-footer">
-                        <div class="contributions">
-                            <h3 class="highlight">My Main Contributions:</h3>
-                            <ul class="contribution-list">
-                                <li>Level layout, puzzle design, and game design.</li>
-                                <li>Team management and project oversight.</li>
-                                <li>UI creative direction, visuals, and functionality.</li>
-                                <li>Scene switching & game flow/progression logic.</li>
-                                <li>Credits & menu scenes.</li>
-                                <li>NPC actions and animations.</li>
-                                <li>Visual Effects (lighting and particles).</li>
-                                <li>Bug fixes and game quality management.</li>
-                            </ul>
-                        </div>
-                        <a href="https://leilamei.itch.io/unspoken" target="_blank" class="btn-play">Play</a>
+                </div>
+            </div>
+
+            <div class="project-dev-section">
+                <h3>Development Insights</h3>
+
+                <!-- Gallery -->
+                <div class="dev-gallery">
+
+                    <div class="dev-gallery-item text-item">
+                        <div class="item-header">Contributions Summary</div>
+                        <ul class="contribution-list">
+                            <li>Level layout, puzzle design, and game design.</li>
+                            <li>Team management and project oversight.</li>
+                            <li>UI creative direction, visuals, and functionality.</li>
+                            <li>Scene switching & game flow/progression logic.</li>
+                            <li>Credits & menu scenes.</li>
+                            <li>NPC actions and animations.</li>
+                            <li>Visual Effects (lighting and particles).</li>
+                            <li>Bug fixes and game quality management.</li>
+                        </ul>
                     </div>
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/Unspoken1.gif" alt="Action System">
+                        
+                        <div class="item-details">
+                            <div class="item-header">Tutorial System</div>
+                            <p>This gif shows ealy footage of the tutorial system I built. Each tutorial step ScriptableObject contains a trigger condition (triggered by our custom Event system) to continue to the next step in the queue. While this system worked well for the constant tutorial redesign/interation we were doing, the strict 'queue' design made it prone to breaking if a trigger event was broadcast too early. If reworking this system, I would probably combine the event triggers with a state machine to allow for early event triggering, and a more flexible queue-like data structure to make the tutorial step order more flexible.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <div class="item-details">
+                            <div class="item-header">Journal System & UI PR</div>
+                        </div>
+                        <img src="assets/UnspokenPR1.png" alt="Git Commit History">
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/Unspoken4.gif" alt="Tutorial System">
+                        
+                        <div class="item-details">
+                            <div class="item-header">NPC Action Animations</div>
+                            <p>The NPC Action system was the combined work of multiple programmers, but I primarily built the animation/gesture events and the Inspector interface for it. A huge game design issue was how to show and not tell the player what words meant though NPCs. A vital part to the solution for this problem was triggering different animations during, before, or after NPC actions. While I was limited by our character models and the free animations available to us online, I was able to achieve a flexible system in which we could assign waving, pointing, head-nodding, and more animations to our NPC's actions.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <div class="item-details">
+                            <div class="item-header">NPC Animations & Actions Commits</div>
+                        </div>
+                        <img src="assets/UnspokenPR3.png" alt="Git Commit History">
+                    </div>
+
+                    <div class="dev-gallery-item text-item">
+                        <div class="item-header">NPC Action System Development Reflection</div>
+                        <p>One of the biggest issues this project still faces is the NPC Action System. This was originally an Inspector interface for developers, in which each type of action would be added to an NPC gameObject's priority action queue or their default action queue. This became incredibly tedious as development went on, since we would end up with priority action queues of 50 or more actions, and editing/debugging this queue involved scrolling through a long list in the inspector. It was prone to breaking and while flexible, was difficult to use.</p><br>
+                        <p>I am currently in the process of refactoring this system and transitioning it to a more OO sequence and schedue-based system. Actions are now ScriptableObjects, allowing them to be reused for different action sequences instead of being reconfigured every time. Different sequences of actions can be rearanged and reused for multiple NPCs, rather than forcing the developer to remake identical actions again and again (e.g. An identical 'Introduction' action sequence used across NPCs). I have also replaced the old coroutine action system with the new Unity 6 Awaitable systen, allowing for cleaner iteruption of actions and preventing event listener leaks and 'zombie' NPC states.</p><br>
+                        <p>This system is still a work in progress, and in future I am hoping to develop a scheduling system for action sequences. Going even further I'd love to create a node-based graph system for complex NPC behaviour and decision making, which would facilitate more interesting & creative level/npc design.</p>
+                    </div> 
+
+                    <div class="dev-gallery-item">
+                        <img src="assets/Unspoken3.gif" alt="Journal UI">
+                        
+                        <div class="item-details">
+                            <div class="item-header">Word Journal UI</div>
+                            <p>I soley was in charge of the UI for this project. The journal system especially took a lot of playtesting and iteration to get right visually and functionally, and I'd say Unity UI Toolkit and I developed a love hate relationship throughout.</p><br>
+                            <p>This was a very challenging but rewarding interface to design, as the audio-based nature of our game, and having a commitment to not including a written form of the langauage made having visual interpretations of it difficult, something necessary for the UI. Games we had taken a lot of inspiration from in other areas such as Chants of Sennaar became difficult to draw from in this area, as they rely heavily on the written language format for the player to keep track of the words.</p><br>
+                            <p>It was clear an audio integration was necessary for the journal UI (the play button for each word), and another team member later developed a custom waveform generator as a way for users to somewhat visually distinguish between words (not seen fully functional in this image). I also developed a way for the player to add their own notes in the space under each word by pressing the [+] button. As the game progresses and more words are added, the player can write whatever they need to to keep track of context clues and hints about a word's meaning before they are certain of its translation.</p>
+                        </div>
+                    </div>
+
+                    <div class="dev-gallery-item">
+                        <div class="item-details">
+                            <div class="item-header">End Credits Scene Arangement and Lighting</div>
+                        </div>
+
+                        <img src="assets/Unspoken5.gif" alt="Credits Scene">
+
+                        <div class="item-details">
+                            <p>I love particle effects :)</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -159,34 +306,41 @@
             </div>
             <div class="project-content">
                 <div class="project-media">
-                    <!--<div class="video-container">
-                        <iframe src="" frameborder="0" allowfullscreen></iframe>
-                    </div>-->
-                    <div class="image-row">
-                        <img src="assets/Flicker1.png" alt="Screenshot">
-                        <img src="assets/Flicker2.png" alt="Screenshot">
+                    <div class="image-row-wrapper">
+                        <div class="image-row">
+                            <img src="assets/Flicker1.png" alt="Screenshot">
+                            <img src="assets/Flicker3.png" alt="Screenshot">
+                            <img src="assets/Flicker2.png" alt="Screenshot">
+                        </div>
+                        <a href="https://leilamei.itch.io/a-flicker-of-hope" target="_blank" class="btn-play overlaid-play-btn">Play Game</a>
                     </div>
                 </div>
                 <div class="project-info">
-                    <p class="description">A Flicker of Hope follows a butterfly on a quest to restore an enchanted forest consumed by a dark curse. Once vibrant, the forest is now home to corrupted animals overcome by sorrow, anger, and fear. Guided by a pure heart, the butterfly brings hope to the gloom, helping the creatures rediscover themselves and reviving the forest through compassion and light.</p>
-                    <div class="info-footer">
-                        <div class="contributions">
-                            <h3 class="highlight">My Main Contributions:</h3>
-                            <ul class="contribution-list">
-                                <li>Storyboarding and project design.</li>
-                                <li>Visual effects (particles, lighting, shaders).</li>
-                                <li>Player movement, interaction, and animations.</li>
-                                <li>In-game UI visuals and functionality.</li>
-                                <li>NPC animations and AI.</li>
-                                <li>Cut-scenes (camera movement, dialogue, coroutine logic).</li>
-                            </ul>
-                        </div>
-                        <a href="https://leilamei.itch.io/a-flicker-of-hope" target="_blank" class="btn-play">Play</a>
-                    </div>    
+                    <p class="description">A Flicker of Hope follows a butterfly on a quest to restore an enchanted forest consumed by a dark curse...</p>   
+                </div>
+            </div>
+
+            <div class="project-dev-section">
+                <h3>Development Insights</h3>
+
+                <!-- Gallery -->
+                <div class="dev-gallery">
+
+                    <div class="dev-gallery-item text-item">
+                        <div class="item-header">Contributions Summary</div>
+                        <ul class="contribution-list">
+                            <li>Storyboarding and project design.</li>
+                            <li>Visual effects (particles, lighting, shaders).</li>
+                            <li>Player movement, interaction, and animations.</li>
+                            <li>In-game UI visuals and functionality.</li>
+                            <li>NPC animations and AI.</li>
+                            <li>Cut-scenes (camera movement, dialogue, coroutine logic).</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- Other Projects Section -->
@@ -261,11 +415,21 @@
         <h2 class="section-title">Featured In</h2>
         <div class="featured-content">
             <p><a href="https://www.gamesstudio.org/articles/celebrating-9-years-innovation-and-collaboration" target="_blank">UTS 2025 End of Year Music/Games Showcase</a></p>
+            <br>
             <p><a href="https://www.gamesstudio.org/articles/classroom-global-stage-students-present-sxsw" target="_blank">SXSW Sydney 2025 Student Games Showcase</a></p>
+            <br>
             <p><a href="https://www.gamesstudio.org/articles/pitching-purpose-how-waypoint%E2%80%99s-%E2%80%9Creal-talk-no-stakes%E2%80%9D-gave-uts-game-devs-glimpse-industry" target="_blank">UTS Tech Fest 2025, Waypoint Presents: Pitch – Real Talk, No Stakes</a></p>
+            <br>
             <p><a href="https://www.gamesstudio.org/articles/record-breaking-uts-games-showcase-celebrates-nine-years-student-innovation" target="_blank">UTS Tech Fest 2025 Games Showcase</a></p>
         </div>
     </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox">
+        <span class="lightbox-close">&times</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -273,6 +437,9 @@
     </footer>
 
     <script>
+
+        //Moving Sprite
+
         const sprite = document.getElementById('sprite-character');
         const idleImg = 'assets/SpriteCharacter/Idle.gif';
         const walkImg = 'assets/SpriteCharacter/Walk.gif';
@@ -333,6 +500,47 @@
         }
 
         gameLoop();
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+        const closeBtn = document.querySelector('.lightbox-close');
+        const galleryItems = document.querySelectorAll('.dev-gallery-item');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Check if this specific card has an image (ignores text-only cards)
+                const img = item.querySelector('img');
+                
+                if (img) {
+                    // Get the image source
+                    lightboxImg.src = img.src;
+                    const header = item.querySelector('.item-header');
+                    if (header) {
+                        lightboxCaption.innerText = header.innerText;
+                    } else {
+                        lightboxCaption.innerText = ""; // Clear if no header
+                    }
+
+                    // Show the lightbox
+                    lightbox.classList.add('show');
+                }
+            });
+        });
+
+        // Close when the X is clicked
+        closeBtn.addEventListener('click', () => {
+            lightbox.classList.remove('show');
+        });
+
+        // Close when clicking anywhere in the background
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('show');
+            }
+        });
+
     </script>
 </body>
 </html>
